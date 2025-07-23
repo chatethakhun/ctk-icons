@@ -1,14 +1,25 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgSettingsIcon = (props: SVGProps<SVGSVGElement>) => (
+import { Ref, forwardRef, memo } from "react";
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const SvgSettingsIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>
+) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 23 22"
     width="1em"
     height="1em"
-    fill="none"
-    viewBox="0 0 23 22"
+    ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       stroke="#606876"
       strokeWidth={1.4}
@@ -22,4 +33,6 @@ const SvgSettingsIcon = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default SvgSettingsIcon;
+const ForwardRef = forwardRef(SvgSettingsIcon);
+const Memo = memo(ForwardRef);
+export default Memo;

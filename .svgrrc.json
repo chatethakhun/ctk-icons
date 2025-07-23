@@ -1,0 +1,19 @@
+{
+  "typescript": true,
+  "icon": true,
+  "dimensions": false,
+  "expandProps": "end",
+  "ref": true,
+  "replaceAttrValues": {
+    "#000": "currentColor",
+    "#000000": "currentColor",
+    "black": "currentColor"
+  },
+  "svgProps": {
+    "fill": "currentColor",
+    "width": "1em",
+    "height": "1em"
+  },
+  "titleProp": true,
+  "memo": true
+}
