@@ -5,7 +5,7 @@ interface SVGRProps {
   title?: string;
   titleId?: string;
 }
-const SvgArrowDownLeft = (
+const SvgArrowLeft = (
   { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>
 ) => (
@@ -26,10 +26,10 @@ const SvgArrowDownLeft = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.6}
-      d="M15.572 16.95H7.05m0 0V8.549m0 8.4 9.9-9.899"
+      d="M10.666 19 4 12m0 0 6.666-7M4 12h16"
     />
   </svg>
 );
-const ForwardRef = forwardRef(SvgArrowDownLeft);
+const ForwardRef = forwardRef(SvgArrowLeft);
 const Memo = memo(ForwardRef);
 export default Memo;
