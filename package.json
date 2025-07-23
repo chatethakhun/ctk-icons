@@ -1,5 +1,5 @@
 {
-  "name": "ctk-icons",
+  "name": "omoo-icons",
   "version": "1.0.6",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
