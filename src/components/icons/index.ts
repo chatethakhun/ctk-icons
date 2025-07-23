@@ -1,2 +1,16 @@
+export { default as ArrowCurveLeftDown } from "./ArrowCurveLeftDown";
+export { default as ArrowCurveLeftRight } from "./ArrowCurveLeftRight";
+export { default as ArrowCurveLeftUp } from "./ArrowCurveLeftUp";
+export { default as ArrowCurveRightUp } from "./ArrowCurveRightUp";
+export { default as ArrowCurveUpLeft } from "./ArrowCurveUpLeft";
+export { default as ArrowDownLeftSquareContained } from "./ArrowDownLeftSquareContained";
+export { default as ArrowDownLeft } from "./ArrowDownLeft";
+export { default as ArrowDownRightSquareContained } from "./ArrowDownRightSquareContained";
+export { default as ArrowDownSquareContained } from "./ArrowDownSquareContained";
+export { default as ArrowLeftSquareContained } from "./ArrowLeftSquareContained";
+export { default as ArrowRightSquareContained } from "./ArrowRightSquareContained";
+export { default as ArrowUpLeftSquareContained } from "./ArrowUpLeftSquareContained";
+export { default as ArrowUpRightSquareContained } from "./ArrowUpRightSquareContained";
+export { default as ArrowUpSquareContained } from "./ArrowUpSquareContained";
 export { default as FileCheckIcon } from "./FileCheckIcon";
 export { default as SettingsIcon } from "./SettingsIcon";

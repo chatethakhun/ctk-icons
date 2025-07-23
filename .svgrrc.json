@@ -7,10 +7,12 @@
   "replaceAttrValues": {
     "#000": "currentColor",
     "#000000": "currentColor",
-    "black": "currentColor"
+    "black": "currentColor",
+    "#606876": "currentColor"
   },
   "svgProps": {
-    "fill": "currentColor",
+    "stroke": "currentColor",
+    "fill": "none",
     "width": "1em",
     "height": "1em"
   },
